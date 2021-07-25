@@ -1,4 +1,4 @@
-## Equillibrium density
+## Equillibrium Density
 
 ```shell
 g++ densities_tp.cpp cluster_dynamics.cpp -fopenmp 
