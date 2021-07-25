@@ -51,7 +51,7 @@ CPU Time: 216 seconds
 
 ## Cluster Size Distribution 
 
-A group of vegetated sites that share nearest neighbours form a cluster. Uses DFS. May experience segmentation faults for large grids (>512).
+A group of vegetated sites that share nearest neighbours form a cluster. Uses DFS for UF. May experience segmentation faults for large grids (>512).
 
 ```
 g++ cluster_sizes_dp.cpp cluster_dynamics.cpp 
@@ -103,7 +103,7 @@ CPU Time: 74 seconds
 
 ## Cluster Dynamics 
 
-Calculates size changes after a single update. Uses DFS. May experience segmentation faults for large grids (>512).
+Calculates size change after a single update. Uses DFS for UF. May experience segmentation faults for large grids (>512).
 
 ```
 g++ transformations_dp.cpp cluster_dynamics.cpp 
