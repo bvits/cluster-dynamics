@@ -103,7 +103,7 @@ CPU Time: 74 seconds
 
 ## Cluster Dynamics 
 
-Calculates size changes after a single update.
+Calculates size changes after a single update. Uses DFS. May experience segmentation faults for large grids (>512).
 
 ```
 g++ transformations_dp.cpp cluster_dynamics.cpp 
